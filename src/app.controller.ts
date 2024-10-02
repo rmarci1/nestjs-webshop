@@ -14,10 +14,6 @@ export class AppController {
   @Get('vasarlas')
   @Render('vasarlas')
   Vasarlas(){
-  
-  }
-  @Post()
-  getWeboldal(@Res() response : Response) {
-      return response.redirect('/vasarlas')
+        
   }
 }
